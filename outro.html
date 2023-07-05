@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carro BMW</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <style>
+    body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section.hero {
+  background-image: url("bmw_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #cc0000;
+}
+
+section.modelos {
+  padding: 40px;
+  text-align: center;
+}
+
+.modelos h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.modelos-container {
+  display: flex;
+  justify-content: center;
+}
+
+.modelo {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.modelo img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+section.recursos {
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+.recursos h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.recursos-container {
+  display: flex;
+  justify-content: center;
+}
+
+.recurso {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.recurso img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Modelos</a></li>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bem-vindo ao mundo da BMW</h1>
+      <p>Descubra a emoção de dirigir um carro de luxo com tecnologia de ponta.</p>
+      <a href="#" class="cta-button">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section class="modelos">
+    <h2>Nossos Modelos</h2>
+    <div class="modelos-container">
+      <div class="modelo">
+        <img src="bmw-1-series-modelfinder.png" alt="BMW Série 1">
+        <h3>BMW Série 1</h3>
+        <p>Experimente a esportividade em um compacto.</p>
+      </div>
+      <div class="modelo">
+        <img src="bmw-3-series-sedan-lci-phev-modelfinder.png"BMW Série 3">
+        <h3>BMW Série 3</h3>
+        <p>Um sedã de luxo que combina elegância e performance.</p>
+      </div>
+      <div class="modelo">
+        <img src="bmw-5-series-sedan-POSI-modelfinder.png" alt="BMW Série 5">
+        <h3>BMW Série 5</h3>
+        <p>Conforto e sofisticação em um sedan executivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="recursos">
+    <h2>Recursos Avançados</h2>
+    <div class="recursos-container">
+      <div class="recurso">
+        <img src="a18_info_head_up_screen_pn2361627_id10202_a0245022.jpg" alt="Head-Up Display">
+        <h3>Head-Up Display</h3>
+        <p>Informações projetadas no para-brisa para uma condução mais segura.</p>
+      </div>
+      <div class="recurso">
+        <img src="Navigationssystem-Professional-01-fullwidth-Eng.jpg" alt="Sistema de Navegação">
+        <h3>Sistema de Navegação</h3>
+        <p>Navegue com precisão e encontre o seu caminho facilmente.</p>
+      </div>
+      <div class="recurso">
+        <img src="assistente.jpg" alt="Assistente Pessoal Inteligente">
+        <h3>Assistente Pessoal Inteligente</h3>
+        <p>Controle o carro com comandos de voz e tenha assistência personalizada.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 BMW. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
